@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.vscode/
+.DS_Store
+
+# MLflow local tracking database and experiment history
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+
+# Generated model artifacts are tracked separately
